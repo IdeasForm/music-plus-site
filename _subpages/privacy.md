@@ -10,7 +10,7 @@ author: Music Plus
 
 This privacy policy outlines what information is collected and stored by Music Plus.
 
-Tidy Frame ( “we,” “us,” or “our”) operates the Music Plus application and related websites (each, an “App” or a “Site”, respectively) and several related services (all such services, “Services”). Through our app, we provide you with a music-related application for a better listening experience and, if you wish, the ability to share with others the songs you are listening.
+Ideas Form ( “we,” “us,” or “our”) operates the Music Plus application and related websites (each, an “App” or a “Site”, respectively) and several related services (all such services, “Services”). Through our app, we provide you with a music-related application for a better listening experience and, if you wish, the ability to share with others the songs you are listening.
 
 ## What Information We Collect and How We Use It
 

@@ -25,14 +25,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://music.ideasform.com"
 site_icon_text: Music Plus
 appstore_link: https://apps.apple.com/us/app/id1626398921
-author: Tidy Frame
+author: Ideas Form
 lang: en_US
 twitter:
   username: ideasformapp
   card: summary
 
 social:
-  name: Tidy Frame
+  name: Ideas Form
   links:
     - https://twitter.com/ideasformapp
 
@@ -41,7 +41,7 @@ social:
 timezone: Asia/Shanghai
 
 # google_analytics: 
-copyright_text: Tidy Frame.
+copyright_text: Ideas Form.
 # theme: minima
 
 plugins:
