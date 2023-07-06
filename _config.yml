@@ -19,22 +19,22 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Music Plus
-email: hi@tidyframe.com
+email: hi@ideasform.com
 description: Bringing enhanced features to Apple Music
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://musicplus.pro"
+url: "https://music.ideasform.com"
 site_icon_text: Music Plus
 appstore_link: https://apps.apple.com/us/app/id1626398921
 author: Tidy Frame
 lang: en_US
 twitter:
-  username: tidyframeapp
+  username: ideasformapp
   card: summary
 
 social:
   name: Tidy Frame
   links:
-    - https://twitter.com/tidyframeapp
+    - https://twitter.com/ideasformapp
 
 # Build settings
 

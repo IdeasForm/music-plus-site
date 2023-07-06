@@ -25,10 +25,10 @@ We don't disclose any information to third parties.
 
 ## Changes to this Privacy Policy
 
-This Privacy Policy is subject to revision from time to time on a going-forward basis. We will post any revised version of the Privacy Policy [on this page](https://musicplus.pro/privacy-policy).
+This Privacy Policy is subject to revision from time to time on a going-forward basis. We will post any revised version of the Privacy Policy [on this page](https://music.ideasform.com/privacy-policy).
 
 ## Questions about the Privacy Policy
 
-If you have any questions or concerns or complaints about our Privacy Policy or our information collection or processing practices, or if you want to report any security violations to us, please contact us at [feedback@tidyframe.com](mailto:feedback@tidyframe.com).
+If you have any questions or concerns or complaints about our Privacy Policy or our information collection or processing practices, or if you want to report any security violations to us, please contact us at [feedback@ideasform.com](mailto:feedback@ideasform.com).
 
 This Policy was last revised: May 26, 2022.
