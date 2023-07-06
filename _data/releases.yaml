@@ -1,3 +1,14 @@
+- version: 2.1.0
+  released: 2023-06-01T18:38:00
+  features:
+    - feature: iPad and Pure Black Theme
+      icon: "feature-landscape"
+      description: |
+        - Added pure black background for landscape mode
+        - Improved iPad experience
+        - Choose one playlist and play it from the Lock Screen Widget with our new feature
+        - New Lock Screen widget to shuffle all music
+
 - version: 2.0.0
   released: 2023-01-09T18:38:00
   features:
