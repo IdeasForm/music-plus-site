@@ -1,0 +1,321 @@
+.home {
+  padding: 0 0;
+
+  @include dark-mode {
+    color: $white-color;
+  }
+
+  section {
+    &.half-left-image {
+      display: flex;
+      flex-direction: row;
+      .section-content {
+        flex: 1;
+      }
+
+      @include on-palm {
+        flex-direction: column-reverse;
+        padding-top: $unit * 8;
+        padding-bottom: 0;
+      }
+    }
+
+    &.half-right-image {
+      display: flex;
+      flex-direction: row;
+      .section-content {
+        flex: 1;
+      }
+      @include on-palm {
+        flex-direction: column;
+        padding-top: $unit * 8;
+        padding-bottom: 0;
+      }
+    }
+
+    &.full {
+      .section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      @include on-palm {
+        padding-top: $unit * 8;
+        padding-bottom: 0;
+      }
+    }
+
+    .section-title {
+      font-size: $funit * 2.4;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+      line-height: 1.3;
+
+      @include on-palm {
+        font-size: $funit * 2;
+        text-align: center;
+      }
+    }
+
+    .section-description {
+      font-size: $funit * 1.4;
+      font-weight: normal;
+      padding: 0;
+      margin: $unit * 2 0 0 0;
+      line-height: 1.4;
+
+      @include on-palm {
+        margin-bottom: $unit * 2;
+        text-align: center;
+        font-size: $funit * 1.2;
+      }
+    }
+  }
+
+  .landing {
+    position: relative;
+
+    .landing-background {
+      height: 210px;
+      width: 100%;
+      background-image: url("/assets/img/Wave\ Tile.png");
+      background-repeat: repeat;
+      background-size: 180px 42px;
+      opacity: 30%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+
+  .header {
+    padding-top: $unit * 8;
+    padding-bottom: $unit * 8;
+
+    @include on-palm {
+      padding-top: $unit * 4;
+    }
+
+    .header-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      @include on-palm {
+        align-items: center;
+        margin-bottom: $unit * 4;
+      }
+
+      p {
+        font-size: $funit * 2.7;
+        font-weight: 800;
+        color: $tint-color;
+        margin: 0;
+
+        @include on-palm {
+          font-size: $funit * 2.2;
+          text-align: center;
+        }
+      }
+
+      img {
+        margin-top: $unit * 7;
+        height: $unit * 7;
+        background-color: $white-color;
+
+        @include on-palm {
+          margin-top: $unit * 3;
+          text-align: center;
+        }
+
+        @include dark-mode {
+          background-color: $black-color;
+        }
+      }
+
+      .paid-note {
+        color: $black-color;
+        font-size: $funit;
+        font-weight: 450;
+        margin: $unit * 2 0;
+
+        @include dark-mode {
+          color: $tint-color;
+        }
+      }
+    }
+
+    .header-image {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .landscape {
+    padding-top: $unit * 10;
+    padding-bottom: $unit * 8;
+
+    .landscape-description {
+      padding: 0 $unit * 11;
+      text-align: center;
+
+      @include on-palm {
+        padding: 0;
+      }
+    }
+
+    .landscape-image {
+      margin-top: $unit * 4;
+      padding: 0 $unit * 4;
+      object-fit: contain;
+      width: 100%;
+      height: auto;
+
+      @include on-palm {
+        padding: 0;
+      }
+    }
+  }
+
+  .widget {
+    .widget-image {
+      object-fit: contain;
+      height: auto;
+      max-width: 50%;
+
+      @include on-palm {
+        max-width: 100%;
+      }
+    }
+
+    .widget-description {
+      padding-top: $unit * 18;
+      padding-bottom: $unit * 18;
+      padding-left: $unit * 5;
+      padding-right: $layout-unit;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include on-palm {
+        padding-top: 0;
+        padding-bottom: $unit * 4;
+        padding-left: $unit * 2;
+        padding-right: $unit * 2;
+        text-align: center;
+      }
+    }
+  }
+
+  .share {
+    .share-description {
+      padding-right: $unit * 5;
+      padding-top: $unit * 16;
+      padding-bottom: $unit * 16;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      @include on-palm {
+        padding: 0;
+        align-items: center;
+      }
+
+      .share-icon {
+        height: $unit * 7;
+        margin-bottom: $unit * 2;
+
+        @include on-palm {
+          display: none;
+        }
+      }
+    }
+
+    .share-image-wrapper {
+      height: 500px;
+      overflow: hidden;
+      padding-left: $unit * 5;
+
+      @include on-palm {
+        height: 440px;
+        padding: 0;
+      }
+
+      .share-image {
+        margin-top: $unit * 10;
+
+        @include on-palm {
+          margin-top: $unit * 2;
+        }
+      }
+    }
+  }
+
+  .features {
+    background-color: $grey-bg-color;
+    display: flex;
+    flex-direction: column;
+    padding-top: $unit * 2;
+    padding-bottom: $unit * 2;
+
+    @include dark-mode {
+      background-color: $grey-color-dark;
+    }
+
+    @include on-palm {
+      padding: $unit * 4 $unit * 2;
+
+      .full.wrapper {
+        padding: 0;
+      }
+  
+    }
+
+    .features-title {
+      padding: $unit * 4 $layout-unit;
+      padding-bottom: $unit * 3;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: $tint-color;
+      width: 100%;
+
+      @include on-palm {
+        padding: $unit * 2 0;
+        padding-top: $unit * 2;
+        padding-bottom: $unit * 3;
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0;
+        font-size: $funit * 2;
+
+        @include on-palm {
+          font-size: $funit * 1.8;
+        }
+      }
+
+      a {
+        color: $tint-color;
+      }
+    }
+
+    .features-update {
+      width: 100%;
+      padding: 0 $layout-unit;
+
+      @include on-palm {
+        padding: 0;
+        padding-top: $unit;
+      }
+    }
+  }
+}

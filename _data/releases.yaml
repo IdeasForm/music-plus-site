@@ -1,0 +1,69 @@
+- version: 2.0.0
+  released: 2023-01-09T18:38:00
+  features:
+    - feature: Redesign
+      icon: "feature-landscape"
+      description: |
+        In this update, we've redesigned the interface and given it a fresh new look to make room for new features in the future.
+        
+        - Redesigned landscape mode and gestures support
+        - More fancy text styles
+        - Redesigned main user interface
+        - Move the existing settings options to a separate page
+        - Add playlist switching
+        - New ability to add full albums to the library
+        - Music detailed information function
+        - A new artwork Home Screen widget
+        - Fixed a long-standing bug that affects the playback of local music files
+
+- version: 1.2.1
+  released: 2022-09-13T18:38:00
+  features:
+    - feature: iOS 16 Support
+      icon: "feature-landscape"
+      description: |
+        Fix some issues on iOS 16
+
+- version: 1.2.0
+  released: 2022-08-16T18:38:00
+  features:
+    - feature: Auto Rotate
+      icon: "feature-landscape"
+      description: |
+        Automatically turn on landscape mode when the device is on auto-rotate
+
+    - feature: Appearance
+      icon: "feature-individual-controls"
+      description: |
+        Fine-tuned the user interface to make elements look more compact
+
+- version: 1.1.0(99)
+  released: 2022-06-08T18:38:00
+  features:
+    - feature: Landscape
+      icon: "feature-landscape"
+      description: |
+        Landscape mode now remember the previous orientation
+
+    - feature: Individual Controls
+      icon: "feature-individual-controls"
+      description: |
+        Show individual controls on main view
+
+- version: 1.0.0(84)
+  released: 2022-05-26T11:12:00
+  features:
+    - feature: Landscape
+      icon: "feature-landscape"
+      description: |
+        Turn iPhone to a music player with bigger buttons and large song artwork on landscape mode
+
+    - feature: Widget
+      icon: "feature-widget"
+      description: |
+        Adding songs to library is fast than ever. Single tap on home screen widget and done
+
+    - feature: Share
+      icon: "feature-share"
+      description: |
+        Share beloved song artworks, and using ASCII art to record what you listening in this moment

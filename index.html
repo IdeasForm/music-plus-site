@@ -1,0 +1,86 @@
+---
+layout: default
+titile: Music Plus
+---
+
+<div class="home">
+
+    <div class="landing">
+        <section class="half-right-image header wrapper insetted">
+            <div class="section-content header-description">
+                <p>Apple Music enhanced app brings better listening experience</p>
+                <a href="{{ site.appstore_link }}" target="_blank"><img src="/assets/img/download-badge-red-landing.png" alt="" srcset=""></a>
+                <p class="paid-note">Free to use, one-time payment for premium</p>
+            </div>
+            <div class="section-content header-image">
+                <img src="/assets/img/bezel-header.png" alt="" srcset="">
+            </div>
+        </section>
+        <div class="landing-background"></div>
+    </div>
+
+    <section class="full landscape wrapper insetted">
+        <div class="section-content">
+            <h2 class="section-title">
+                Landscape Mode
+            </h2>
+            <p class="section-description landscape-description">
+                Turn iPhone to a music player with big control buttons and large song artwork on landscape mode. Also support screen always on
+            </p>
+            <img class="landscape-image" src="/assets/img/bezel-landscape.png" alt="">
+        </div>
+    </section>
+
+    <section class="half-left-image widget wrapper">
+        <img class="section-content widget-image" src="/assets/img/Wallpaper.jpg">
+        <div class="section-content">
+            <div class="widget-description">
+                <h2 class="section-title">
+                    Quickly add using widget
+                </h2>
+                <p class="section-description landscape-description">
+                    Widget speeds up the process of adding songs. Single tap on the widget, the currently playing song will be added to library and you will never miss good tunes again
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="half-right-image share wrapper insetted">
+        <div class="section-content">
+            <div class="share-description">
+                <img class="share-icon" src="/assets/img/icon-share.png" alt="" srcset="">
+                <h2 class="section-title">
+                    Share beloved songs
+                </h2>
+                <p class="section-description">
+                    Share the song using stylized ASCII art text, or paste it directly into your journal to record the moment
+                </p>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="share-image-wrapper">
+                <img class="share-image" src="/assets/img/bezel-share.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <div class="full features">
+        <div class="features-title wrapper">
+            <h2>What's New</h2>
+            <a href="/updates">see all</a>
+        </div>
+        <section class="features-update wrapper">
+            <div class="updates">
+                {%- assign date_format = "%b %-d, %Y" -%}
+                {% assign ver = site.data.releases.first %}
+                <div class="version-group">
+                    <h2 class="version-number">Version {{ ver.version }}</h2>
+                    <p class="version-released">Released at: {{ ver.released | date: date_format }}</p>
+                    {% include updates/items.html features=ver.features %}
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
